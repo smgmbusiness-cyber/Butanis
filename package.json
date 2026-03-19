@@ -1,13 +1,17 @@
-
-  {"name": "ai-phone-agent",
+{
+  "name": "multi-tenant-ai-phone-agent",
   "version": "1.0.0",
-  "description": "AI telefonrobot for bedrifter",
+  "description": "AI telefonagent for barber og frisørsalonger",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
+  "engines": {
+    "node": ">=18"
+  },
   "dependencies": {
-    "express": "^4.18.2",
-    "uuid": "^9.0.0"
+    "express": "^4.19.2",
+    "twilio": "^5.2.3",
+    "uuid": "^9.0.1"
   }
 }
